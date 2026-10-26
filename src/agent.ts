@@ -21,7 +21,7 @@ async function runAgent() {
   console.log("=========================================\n");
 
   const chat = ai.chats.create({
-    model: 'gemini-2.5-flash',
+    model: 'gemini-3.8-flash'
     config: {
       systemInstruction: systemInstruction,
       temperature: 0.1,
