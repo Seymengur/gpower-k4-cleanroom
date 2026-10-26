@@ -1,0 +1,34 @@
+{
+  "name": "gpower-k4",
+  "version": "1.0.0",
+  "description": "G*Power 3.1.9.7 K4: Chi-Square Contingency Tables Power Analysis CLI Engine",
+  "main": "dist/cli.js",
+  "bin": {
+    "gpower-k4": "dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/cli.js",
+    "test": "vitest run"
+  },
+  "keywords": [
+    "gpower",
+    "chi-square",
+    "contingency-tables",
+    "power-analysis",
+    "k4"
+  ],
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "@google/genai": "^2.31.0",
+    "@modelcontextprotocol/sdk": "^1.32.2",
+    "jstat": "^1.9.6"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.0.0",
+    "typescript": "^5.0.0",
+    "vitest": "^3.0.0"
+  }
+}
